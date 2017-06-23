@@ -1,0 +1,271 @@
+		level = 0;
+		level_r++;
+		Initialize_Leve_2(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_2(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_3(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_3(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_4(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_4(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_5(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_5(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_6(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_6(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_7(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_7(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_8(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_8(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_9(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_9(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_10(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_10(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+		} while (code != Esc && level == 0);
+
+		level = 0;
+		level_r++;
+		Initialize_Leve_11(a_board, size_y, size_x);
+		print_char(a_board);
+		Find_43(gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, a_board);
+		print_little_kv(1, 1, size_lit, a_board);
+		GotoXY(1, 26);
+		cout << "level = " << level_r;
+
+
+		do
+		{
+			code = Go(a_board, sum_step, gps_y_43_1, gps_x_43_1, gps_y_43_2, gps_x_43_2, level, code);
+			print_little_kv(1, 1, size_lit, a_board);
+
+			if (code == 'r')
+			{
+				system("cls");
+				Initialize_Leve_11(a_board, size_y, size_x);
+				print_little_kv(1, 1, size_lit, a_board);
+				print_char(a_board);
+				level = 0;
+			}
+			GotoXY(1, 26);
+			cout << "level = " << level_r;
+			code = Esc;
+		} while (code != Esc && level == 0);

@@ -1,0 +1,1097 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Solution_Path">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SolutionPath" type="xs:string" minOccurs="0" />
+                <xs:element name="SolutionVersion" type="xs:string" minOccurs="0" />
+                <xs:element name="PlogVersion" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="ModificationDate" msdata:DateTimeMode="Utc" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PVS-Studio_Analysis_Log">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FavIcon" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Level" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="DefaultOrder" type="xs:int" minOccurs="0" />
+                <xs:element name="ErrorCode" type="xs:string" minOccurs="0" />
+                <xs:element name="Message" type="xs:string" />
+                <xs:element name="Project" type="xs:string" minOccurs="0" />
+                <xs:element name="ShortFile" type="xs:string" minOccurs="0" />
+                <xs:element name="Line" type="xs:int" />
+                <xs:element name="FalseAlarm" type="xs:boolean" minOccurs="0" />
+                <xs:element name="File" type="xs:string" />
+                <xs:element name="CodePrev" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="CodeCurrent" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="CodeNext" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="TrialMessage" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Analyzer" type="xs:int" minOccurs="0" />
+                <xs:element name="LineExtension" type="xs:string" minOccurs="0" />
+                <xs:element name="Retired" type="xs:boolean" default="false" minOccurs="0" />
+                <xs:element name="AnalyzedSourceFiles" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//PVS-Studio_Analysis_Log" />
+        <xs:field xpath="Line" />
+        <xs:field xpath="Message" />
+        <xs:field xpath="File" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Solution_Path>
+    <SolutionPath>D:\Education\ШАГ\BPU-1611\OOP C++\Homeworks\03\Students group\Students group.sln</SolutionPath>
+    <SolutionVersion>14.0</SolutionVersion>
+    <PlogVersion>4</PlogVersion>
+    <ModificationDate>2016-12-11T19:23:21.5443494Z</ModificationDate>
+  </Solution_Path>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>1</Level>
+    <DefaultOrder>1</DefaultOrder>
+    <ErrorCode>V547</ErrorCode>
+    <Message>Expression 'choice == 0xE0' is always false. The value range of char type: [-128, 127].</Message>
+    <Project>Students group</Project>
+    <ShortFile>menu.cpp</ShortFile>
+    <Line>40</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\menu.cpp</File>
+    <CodePrev>2259193</CodePrev>
+    <CodeCurrent>1871545917</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>2</DefaultOrder>
+    <ErrorCode>V122</ErrorCode>
+    <Message>Memsize type is used in the struct/class.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.h</ShortFile>
+    <Line>14</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.h</File>
+    <CodePrev>11496</CodePrev>
+    <CodeCurrent>16695</CodeCurrent>
+    <CodeNext>42483</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>3</DefaultOrder>
+    <ErrorCode>V122</ErrorCode>
+    <Message>Memsize type is used in the struct/class.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.h</ShortFile>
+    <Line>15</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.h</File>
+    <CodePrev>16695</CodePrev>
+    <CodeCurrent>42483</CodeCurrent>
+    <CodeNext>5816</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>4</DefaultOrder>
+    <ErrorCode>V101</ErrorCode>
+    <Message>Implicit assignment type conversion to memsize type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.h</ShortFile>
+    <Line>27</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.h</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>705347</CodeCurrent>
+    <CodeNext>22734301</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>5</DefaultOrder>
+    <ErrorCode>V121</ErrorCode>
+    <Message>Implicit conversion of the type of 'new' operator's argument to size_t type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.h</ShortFile>
+    <Line>28</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.h</File>
+    <CodePrev>705347</CodePrev>
+    <CodeCurrent>22734301</CodeCurrent>
+    <CodeNext>739013</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>6</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: str[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.h</ShortFile>
+    <Line>29</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.h</File>
+    <CodePrev>22734301</CodePrev>
+    <CodeCurrent>739013</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>7</DefaultOrder>
+    <ErrorCode>V690</ErrorCode>
+    <Message>The 'Student' class implements a copy constructor, but lacks the '=' operator. It is dangerous to use such a class.</Message>
+    <Project>Students group</Project>
+    <ShortFile>student.h</ShortFile>
+    <Line>8</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.h</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>147340</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>8</DefaultOrder>
+    <ErrorCode>V690</ErrorCode>
+    <Message>The 'Group' class implements a copy constructor, but lacks the '=' operator. It is dangerous to use such a class.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.h</ShortFile>
+    <Line>9</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.h</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>36582</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>9</DefaultOrder>
+    <ErrorCode>V122</ErrorCode>
+    <Message>Memsize type is used in the struct/class.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.h</ShortFile>
+    <Line>13</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.h</File>
+    <CodePrev>127309</CodePrev>
+    <CodeCurrent>4070435</CodeCurrent>
+    <CodeNext>169939</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>10</DefaultOrder>
+    <ErrorCode>V122</ErrorCode>
+    <Message>Memsize type is used in the struct/class.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.h</ShortFile>
+    <Line>14</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.h</File>
+    <CodePrev>4070435</CodePrev>
+    <CodeCurrent>169939</CodeCurrent>
+    <CodeNext>5816</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>11</DefaultOrder>
+    <ErrorCode>V101</ErrorCode>
+    <Message>Implicit assignment type conversion to memsize type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.h</ShortFile>
+    <Line>26</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.h</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>11279635</CodeCurrent>
+    <CodeNext>40697983</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>12</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.h</ShortFile>
+    <Line>39</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.h</File>
+    <CodePrev>2354742930</CodePrev>
+    <CodeCurrent>1131415674</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>13</DefaultOrder>
+    <ErrorCode>V101</ErrorCode>
+    <Message>Implicit assignment type conversion to memsize type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.h</ShortFile>
+    <Line>43</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.h</File>
+    <CodePrev>805080927</CodePrev>
+    <CodeCurrent>4270074356</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp*d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\main.cpp</AnalyzedSourceFiles>
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>14</DefaultOrder>
+    <ErrorCode>V104</ErrorCode>
+    <Message>Implicit conversion of 'i' to memsize type in an arithmetic expression: i &lt; count</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>21</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>1810058921</CodeCurrent>
+    <CodeNext>3428836960</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>15</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>22</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>1810058921</CodePrev>
+    <CodeCurrent>3428836960</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>16</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: g.student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>22</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>1810058921</CodePrev>
+    <CodeCurrent>3428836960</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>17</DefaultOrder>
+    <ErrorCode>V809</ErrorCode>
+    <Message>Verifying that a pointer value is not NULL is not required. The 'if (student != nullptr)' check can be removed.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>28</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>48000157</CodeCurrent>
+    <CodeNext>2253091</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>5</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>18</DefaultOrder>
+    <ErrorCode>V104</ErrorCode>
+    <Message>Implicit conversion of 'i' to memsize type in an arithmetic expression: i &lt; count</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>77</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>321998507</CodeCurrent>
+    <CodeNext>708191845</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>19</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: temp[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>78</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>321998507</CodePrev>
+    <CodeCurrent>708191845</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>20</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>78</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>321998507</CodePrev>
+    <CodeCurrent>708191845</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>21</DefaultOrder>
+    <ErrorCode>V104</ErrorCode>
+    <Message>Implicit conversion of 'i' to memsize type in an arithmetic expression: i &lt; count</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>107</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>708191845</CodePrev>
+    <CodeCurrent>1007414968</CodeCurrent>
+    <CodeNext>2876647013</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>22</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: temp[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>108</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>1007414968</CodePrev>
+    <CodeCurrent>2876647013</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>23</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>108</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>1007414968</CodePrev>
+    <CodeCurrent>2876647013</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>24</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>180</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>575873497</CodePrev>
+    <CodeCurrent>778848321</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>25</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>188</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>2084</CodePrev>
+    <CodeCurrent>3448358292</CodeCurrent>
+    <CodeNext>2337</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>26</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>191</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>2082</CodePrev>
+    <CodeCurrent>1817051327</CodeCurrent>
+    <CodeNext>2337</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>27</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>194</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>2080</CodePrev>
+    <CodeCurrent>908532638</CodeCurrent>
+    <CodeNext>2337</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>28</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>197</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>2094</CodePrev>
+    <CodeCurrent>3871662643</CodeCurrent>
+    <CodeNext>2337</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>29</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>200</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>2092</CodePrev>
+    <CodeCurrent>3448356932</CodeCurrent>
+    <CodeNext>2337</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>30</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>203</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>2090</CodePrev>
+    <CodeCurrent>2601747690</CodeCurrent>
+    <CodeNext>2337</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>31</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>206</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>2088</CodePrev>
+    <CodeCurrent>3871662795</CodeCurrent>
+    <CodeNext>2337</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>32</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>228</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>575873497</CodePrev>
+    <CodeCurrent>778848321</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>33</DefaultOrder>
+    <ErrorCode>V104</ErrorCode>
+    <Message>Implicit conversion of 'i' to memsize type in an arithmetic expression: i &lt; count</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>243</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>321998507</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>34</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>246</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>680074577</CodePrev>
+    <CodeCurrent>12159041</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>35</DefaultOrder>
+    <ErrorCode>V104</ErrorCode>
+    <Message>Implicit conversion of 'i' to memsize type in an arithmetic expression: i &lt; count</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>275</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>231347</CodePrev>
+    <CodeCurrent>321998507</CodeCurrent>
+    <CodeNext>2559849550</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>36</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>276</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>321998507</CodePrev>
+    <CodeCurrent>2559849550</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>37</DefaultOrder>
+    <ErrorCode>V104</ErrorCode>
+    <Message>Implicit conversion of 'newCount' to memsize type in an arithmetic expression: count != newCount</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>300</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>23139073</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>38</DefaultOrder>
+    <ErrorCode>V121</ErrorCode>
+    <Message>Implicit conversion of the type of 'new' operator's argument to size_t type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>303</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>2253091</CodePrev>
+    <CodeCurrent>3226310356</CodeCurrent>
+    <CodeNext>1107731</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>39</DefaultOrder>
+    <ErrorCode>V101</ErrorCode>
+    <Message>Implicit assignment type conversion to memsize type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>304</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>3226310356</CodePrev>
+    <CodeCurrent>1107731</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>40</DefaultOrder>
+    <ErrorCode>V104</ErrorCode>
+    <Message>Implicit conversion of 'i' to memsize type in an arithmetic expression: i &lt; count</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>308</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>231347</CodePrev>
+    <CodeCurrent>321998507</CodeCurrent>
+    <CodeNext>1671115883</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>41</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>309</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>321998507</CodePrev>
+    <CodeCurrent>1671115883</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>1</Level>
+    <DefaultOrder>42</DefaultOrder>
+    <ErrorCode>V558</ErrorCode>
+    <Message>Function returns the pointer to temporary local object: s.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>324</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>11109</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>43</DefaultOrder>
+    <ErrorCode>V104</ErrorCode>
+    <Message>Implicit conversion of 'i' to memsize type in an arithmetic expression: i &lt; count</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>338</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>321998507</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>44</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>340</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>1852004610</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>45</DefaultOrder>
+    <ErrorCode>V108</ErrorCode>
+    <Message>Incorrect index type: student[not a memsize-type]. Use memsize type instead.</Message>
+    <Project>Students group</Project>
+    <ShortFile>group.cpp</ShortFile>
+    <Line>343</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\group.cpp</File>
+    <CodePrev>680074577</CodePrev>
+    <CodeCurrent>12159041</CodeCurrent>
+    <CodeNext>9057</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>46</DefaultOrder>
+    <ErrorCode>V809</ErrorCode>
+    <Message>Verifying that a pointer value is not NULL is not required. The 'if (str != nullptr)' check can be removed.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.cpp</ShortFile>
+    <Line>21</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>3494639205</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>5</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>47</DefaultOrder>
+    <ErrorCode>V106</ErrorCode>
+    <Message>Implicit type conversion first argument 'newLen' of function 'AllocateMem' to memsize type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.cpp</ShortFile>
+    <Line>35</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>53295257</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>48</DefaultOrder>
+    <ErrorCode>V106</ErrorCode>
+    <Message>Implicit type conversion first argument 'newLen' of function 'ReallocateMem' to memsize type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.cpp</ShortFile>
+    <Line>45</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>238893209</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>49</DefaultOrder>
+    <ErrorCode>V106</ErrorCode>
+    <Message>Implicit type conversion first argument 'newLen' of function 'ReallocateMem' to memsize type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.cpp</ShortFile>
+    <Line>268</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>2663380810</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>50</DefaultOrder>
+    <ErrorCode>V106</ErrorCode>
+    <Message>Implicit type conversion first argument 'newLen' of function 'AllocateMem' to memsize type.</Message>
+    <Project>Students group</Project>
+    <ShortFile>string.cpp</ShortFile>
+    <Line>268</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\string.cpp</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>2663380810</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>1</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>51</DefaultOrder>
+    <ErrorCode>V576</ErrorCode>
+    <Message>Incorrect format. Consider checking the third actual argument of the 'sprintf' function. The SIGNED integer type argument is expected.</Message>
+    <Project>Students group</Project>
+    <ShortFile>student.cpp</ShortFile>
+    <Line>112</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.cpp</File>
+    <CodePrev>17870751</CodePrev>
+    <CodeCurrent>1585124053</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>52</DefaultOrder>
+    <ErrorCode>V576</ErrorCode>
+    <Message>Incorrect format. Consider checking the third actual argument of the 'sprintf' function. The SIGNED integer type argument is expected.</Message>
+    <Project>Students group</Project>
+    <ShortFile>student.cpp</ShortFile>
+    <Line>115</Line>
+    <FalseAlarm>false</FalseAlarm>
+    <File>d:\education\шаг\bpu-1611\oop c++\homeworks\03\students group\student.cpp</File>
+    <CodePrev>35713055</CodePrev>
+    <CodeCurrent>2045036460</CodeCurrent>
+    <CodeNext>0</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+</NewDataSet>

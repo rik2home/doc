@@ -1,0 +1,4 @@
+data/.hgignore.i
+data/hello.vcxproj.i
+data/hello.sln.i
+data/Source.cpp.i

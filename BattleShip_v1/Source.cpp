@@ -5,6 +5,7 @@
 #include "Ship.h"
 #include "GameBoard.h"
 #include "Console.h"
+#include "Constants.h"
 
 using namespace std;
 
@@ -15,7 +16,7 @@ int main(int argc, char* argv)
 	gameBoard2.Print_2();
 
 	do {
-		Console::GetInstance()->GotoXY(0, 11);
+		Console::GetInstance()->GotoXY(0, 10);
 		cout << "Enter x coord: " << endl;
 		int x;
 		cin >> x;

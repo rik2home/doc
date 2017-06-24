@@ -40,5 +40,10 @@ void main()
 	Z.Print();
 	Pair Pref = --Z;
 	cout << "Pref\n";
-
+	Pref.Print();
+	Pair Post = Z--;
+	cout << "Post\n";
+	Post.Print();
+	cout << "Z\n";
+	Z.Print();
 }

@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{CA3ABDBF-3289-488B-9ED3-BBB5E11215A5}</ProjectGuid>
+    <ProjectGuid>{0C1FBDD6-B107-4466-A1D8-46119D5B7025}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Staticmetod</RootNamespace>
+    <RootNamespace>Singlton</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
